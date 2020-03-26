@@ -7,12 +7,12 @@ import { Directive, OnInit, forwardRef, ValidatorFn, Input } from "@angular/core
   providers: [
     {
       provide: NG_VALIDATORS,
-      useExisting: ForbiddenValidatorDirective,
+      useExisting: PhoneNumberDirective,
       multi: true
     }
   ]
 })
-export class ForbiddenValidatorDirective implements Validator {
+export class PhoneNumberDirective implements Validator {
   @Input("appForbiddenName") forbiddenName: string;
 
   validate(control: AbstractControl): { [key: string]: any } | null {
