@@ -13,8 +13,8 @@ import { PhoneNumberDirective } from './phone-number.directive';
   ],
   declarations: [
     AppComponent,
-    HeroFormComponent,
-    PhoneNumberDirective
+    HeroFormComponent ,
+    PhoneNumberDirective 
   ],
   providers: [],
   bootstrap: [ AppComponent ]
