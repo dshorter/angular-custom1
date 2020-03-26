@@ -4,7 +4,7 @@ import { FormsModule }   from '@angular/forms';
 
 import { AppComponent }  from './app.component';
 import { HeroFormComponent } from './hero-form/hero-form.component';
-import { PhoneNumberDirective } from './phone-number.directive';
+import { PhoneNumberDirective } from './validators/phone-number.directive';
 
 @NgModule({
   imports: [
